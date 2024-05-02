@@ -1,0 +1,129 @@
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #EEE7DA;
+}
+
+main{
+    min-height: 100vh;
+}
+
+.top {
+    position: relative;
+}
+
+.top img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border: 2px solid black;
+}
+
+.top h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black; 
+    font-size: 3em;
+    text-align: center;
+}
+
+.top h3 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black; 
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.center button {
+    background-color: #88AB8E; 
+    color: black;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.center button:hover {
+    background-color: #AFC8AD; 
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.text {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    color: black; 
+    background-color: #88AB8E;
+    padding: 10px;
+    text-align: center;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    width: 400px; 
+    height: 300px; 
+    display: block;
+    margin: 0 auto; 
+}
+
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: #88AB8E;
+}

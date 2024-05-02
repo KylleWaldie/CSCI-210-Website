@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+body {
+    background-color: #EEE7DA;
+}
+.total-page{
+    height: 100vh;
+}
+main .left-box {
+    width: calc(50% - 25px); 
+    float: left;
+    padding: 30px; 
+    background-color: #f9f9f9;
+    border: 1px solid black;
+    border-radius: 5px; 
+    margin-left: 25px; 
+    margin-top: 20px;
+}
+
+main .checkout-form-box {
+    padding: 10px; 
+}
+
+main .checkout-form-box h2 {
+    margin-top: 0;
+}
+
+main .form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+}
+
+main .form-group label {
+    flex-basis: 40%; 
+    font-size: 20px;
+}
+
+main .form-group input[type="text"] {
+    flex-basis: 55%;
+    height: 40px; 
+}
+
+main .form-group input[type="text"]:focus {
+    font-size: 20px; 
+}
+main .form-group input[type="number"] {
+    flex-basis: 55%;
+    height: 40px; 
+}
+
+main .form-group input[type="number"]:focus {
+    font-size: 20px; 
+}
+
+main .email-phone-box {
+    width: calc(50% - 25px); 
+    float: left;
+    padding: 30px; 
+    background-color: #f9f9f9;
+    border: 1px solid black;
+    border-radius: 5px; 
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-right: -10px;
+    margin-bottom: 20px;
+}
+
+main .email-phone-box .form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+}
+
+main .email-phone-box label {
+    flex-basis: 40%; 
+    font-size: 20px;
+}
+
+main .email-phone-box input[type="text"],
+main .email-phone-box input[type="number"] {
+    flex-basis: 55%;
+    height: 40px; 
+}
+
+main .email-phone-box input[type="text"]:focus,
+main.email-phone-box input[type="number"]:focus {
+    font-size: 20px; 
+}
+
+main .right-box {
+    width: 45%;
+    float: right;
+    padding: 20px;
+    margin-top: -488px;
+
+
+}
+
+
+main .top-right-box {
+    background-color: #f9f9f9;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px; 
+}
+
+main .summary-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+main .otherP {
+    margin: 0;
+}
+
+main .price {
+    margin: 0;
+}
+
+main .checkout button {
+    background-color: #88AB8E;
+    color: black;
+    padding: 1em;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: bold;
+    width: 100%;
+}
+
+main .checkout button:hover{
+    background-color: #AFC8AD;
+}
