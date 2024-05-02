@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+body {
+    background-color: #EEE7DA;
+}
+
+main {
+    text-align: center;
+    min-height: 100vh;
+}
+
+main h1 {
+    margin-bottom: 20px;
+}
+
+.info-box {
+    background-color: #EEE7DA;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center; 
+}
+
+.info-box p {
+    margin-bottom: 10px;
+}
+
+.photo-of-me {
+    display: block; 
+    margin: 0 auto; 
+    max-width: 300px; 
+    height: auto; 
+}

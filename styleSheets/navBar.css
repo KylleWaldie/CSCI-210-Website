@@ -1,0 +1,91 @@
+/*COlOR PALLET 1
+#88AB8E
+#F2F1EB
+#AFC8AD
+#EEE7DA
+*/
+
+/*COLOR PALLET 2
+#33CA7F
+#7DCFB6
+#ECE4B7
+#FBD1A2
+#FC9F5B
+*/
+
+/*COLOR PALLET OPTION 3
+#33CA7F
+#7DCFB6
+#F3EFF5
+#454955
+#0D0A0B
+*/
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #88AB8E;
+  font-size: 100%;
+}
+
+li {
+  float: left;
+  border-right: 1px solid black;
+  height: 50px;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #AFC8AD;
+  height: 22px;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #EEE7DA;
+  min-width: 100px;
+  box-shadow: 10px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 15px, 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #F2F1EB;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.logo {
+  width: 50px; 
+  height: auto; 
+  margin-right: 0px; 
+}
+
